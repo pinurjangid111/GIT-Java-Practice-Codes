@@ -9,6 +9,7 @@ public class Ans{
       int odd = 0;
       int even = 0;
       int zero = 0;
+        int hero=99999999999999999;
       for(int i = 0;i<z.length;i++){
         System.out.println("Print the value of z["+i+"]");
         z[i] = s.nextInt();
