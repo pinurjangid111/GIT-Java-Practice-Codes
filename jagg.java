@@ -1,0 +1,30 @@
+import java.util.*;
+public class jagg {
+    public static void main(String args[])
+    {
+        Scanner obj=new Scanner(System.in);
+        int [][]num=new int[2][3];
+        num[0]=new int[3];
+        num[1]=new int[2];
+        num[2]=new int[1];
+        System.out.println("Enter Values : ");
+        for(int i=0;i<num.length;i++)
+        {
+            for(int j=0;j<num[0].length;j++)
+            {
+               num[i][j]=obj.nextInt(); 
+            }
+        }
+        System.out.println("you Entered : ");  
+        for(int i=0;i<num.length;i++)
+        {
+            for(int j=0;j<num[i].length;j++)
+        {
+            System.out.print(num[i][j]+ " ");
+
+        }
+        System.out.println();
+    }
+
+}
+}
