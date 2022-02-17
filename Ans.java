@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.*;
 public class Ans{
     public static void main(String[] args){
       Scanner s = new Scanner(System.in);
@@ -9,6 +10,8 @@ public class Ans{
       int even = 0;
       int zero = 0;
         int err=000000;
+
+        int hero=999999999;
       for(int i = 0;i<z.length;i++){
         System.out.println("Print the value of z["+i+"]");
         z[i] = s.nextInt();
